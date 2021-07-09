@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let window  = UIWindow(frame: UIScreen.main.bounds)
+        //print(UserDefaults.standard.string(forKey: "access_token"))
         if Authmanager.shared.isSignedIn{
+            
             window.rootViewController = TabBarViewController()
         }
         else{
@@ -29,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         self.window = window
         
+        Authmanager.shared.refreshIfneeded { sucess in
+            print(sucess)
+        }
         //print(Authmanager.shared.sighnInURL.absoluteString)
         // Override point for customization after application launch.
         return true
