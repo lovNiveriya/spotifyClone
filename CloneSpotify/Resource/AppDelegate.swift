@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = TabBarViewController()
         window.makeKeyAndVisible()
         self.window = window
+        
+        //print(Authmanager.shared.sighnInURL.absoluteString)
         // Override point for customization after application launch.
         return true
     }

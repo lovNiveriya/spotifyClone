@@ -31,6 +31,8 @@
 		30219D68269798630068BD41 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D67269798630068BD41 /* AudioTrack.swift */; };
 		30219D6A269798770068BD41 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D69269798770068BD41 /* Artist.swift */; };
 		30219D6C269798840068BD41 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D6B269798840068BD41 /* UserProfile.swift */; };
+		30219D6E2697A4560068BD41 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D6D2697A4560068BD41 /* Extension.swift */; };
+		30219D7126985DFF0068BD41 /* welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30219D7026985DFF0068BD41 /* welcome.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		30219D67269798630068BD41 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		30219D69269798770068BD41 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		30219D6B269798840068BD41 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		30219D6D2697A4560068BD41 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		30219D7026985DFF0068BD41 /* welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = welcome.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +215,7 @@
 				30219D1C269790E60068BD41 /* Assets.xcassets */,
 				30219D13269790E50068BD41 /* AppDelegate.swift */,
 				30219D15269790E50068BD41 /* SceneDelegate.swift */,
+				30219D6D2697A4560068BD41 /* Extension.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -229,15 +234,24 @@
 		30219D50269797880068BD41 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				30219D512697979F0068BD41 /* AuthViewController.swift */,
-				30219D53269797AF0068BD41 /* WelcomeViewController.swift */,
+				30219D72269860350068BD41 /* AuthView */,
 				30219D55269797BC0068BD41 /* SettingViewController.swift */,
+				30219D53269797AF0068BD41 /* WelcomeViewController.swift */,
 				30219D57269797C90068BD41 /* ProfileViewController.swift */,
 				30219D59269797D70068BD41 /* PlayerViewController.swift */,
 				30219D5B269797E70068BD41 /* PlayListViewController.swift */,
 				30219D5D269797F90068BD41 /* SearchResultViewController.swift */,
 			);
 			path = other;
+			sourceTree = "<group>";
+		};
+		30219D72269860350068BD41 /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+				30219D7026985DFF0068BD41 /* welcome.storyboard */,
+				30219D512697979F0068BD41 /* AuthViewController.swift */,
+			);
+			path = AuthView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30219D7126985DFF0068BD41 /* welcome.storyboard in Resources */,
 				30219D20269790E60068BD41 /* LaunchScreen.storyboard in Resources */,
 				30219D1D269790E60068BD41 /* Assets.xcassets in Resources */,
 			);
@@ -378,6 +393,7 @@
 				30219D4A269796FC0068BD41 /* TabBarViewController.swift in Sources */,
 				30219D642697983D0068BD41 /* HapticsManager.swift in Sources */,
 				30219D68269798630068BD41 /* AudioTrack.swift in Sources */,
+				30219D6E2697A4560068BD41 /* Extension.swift in Sources */,
 				30219D18269790E50068BD41 /* HomeViewController.swift in Sources */,
 				30219D522697979F0068BD41 /* AuthViewController.swift in Sources */,
 				30219D56269797BC0068BD41 /* SettingViewController.swift in Sources */,
