@@ -34,6 +34,7 @@
 		30219D6E2697A4560068BD41 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D6D2697A4560068BD41 /* Extension.swift */; };
 		30219D7126985DFF0068BD41 /* welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30219D7026985DFF0068BD41 /* welcome.storyboard */; };
 		30219D74269878580068BD41 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30219D73269878580068BD41 /* AuthResponse.swift */; };
+		30CDB71C269D074B002320EA /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB71B269D074A002320EA /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		30219D6D2697A4560068BD41 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		30219D7026985DFF0068BD41 /* welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = welcome.storyboard; sourceTree = "<group>"; };
 		30219D73269878580068BD41 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		30CDB71B269D074A002320EA /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				30219D69269798770068BD41 /* Artist.swift */,
 				30219D6B269798840068BD41 /* UserProfile.swift */,
 				30219D73269878580068BD41 /* AuthResponse.swift */,
+				30CDB71B269D074A002320EA /* SettingsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				30219D68269798630068BD41 /* AudioTrack.swift in Sources */,
 				30219D6E2697A4560068BD41 /* Extension.swift in Sources */,
 				30219D18269790E50068BD41 /* HomeViewController.swift in Sources */,
+				30CDB71C269D074B002320EA /* SettingsModel.swift in Sources */,
 				30219D522697979F0068BD41 /* AuthViewController.swift in Sources */,
 				30219D56269797BC0068BD41 /* SettingViewController.swift in Sources */,
 				30219D6C269798840068BD41 /* UserProfile.swift in Sources */,

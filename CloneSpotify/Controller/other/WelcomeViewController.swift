@@ -44,6 +44,7 @@ class WelcomeViewController: UIViewController {
 
     }
     private func handelSignIn(sucess:Bool){
+        print(sucess)
         guard sucess else {
             let alert = UIAlertController(title: "Opps", message: "Something went wrong while sighnin", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Dissmiss", style: .cancel, handler: nil))
